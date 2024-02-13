@@ -1,0 +1,21 @@
+<!doctype html>
+<!-- Thanks to https://github.com/microsoft/playwright/issues/29357 for the outline of the issue. -->
+<div>
+    <template shadowrootmode="open">
+        <details open>
+            <summary>The first details:</summary>
+            <slot></slot>
+        </details>
+    </template>
+    <a href="https://playwright.dev/">Playwright!</a>
+</div>
+
+<div>
+    <template shadowrootmode="open">
+        <details open>
+            <summary>The second details:</summary>
+            <slot></slot>
+        </details>
+    </template>
+    <a href="https://wikipedia.org/">Wikipedia!</a>
+</div>
